@@ -1,0 +1,41 @@
+.padre{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+.links{
+font-size: 20px;
+margin-top:35px;
+width: 500px;
+display: flex;
+justify-content: space-between;
+}
+.Idiomas{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    color: white
+}
+#EN{
+    color: white;
+    background-color:#8B8B8B;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#EUS{
+    color: white;
+    background-color:#8B8B8B;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    width: 250px;
+}
+a{
+color: #938e93;
+    text-decoration: none;
+}

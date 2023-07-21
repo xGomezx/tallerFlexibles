@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    background: gray;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    border-radius: 10px;
+}

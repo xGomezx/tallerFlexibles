@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+    background: rgb(230, 230, 230);
+    height: 10vh;
+}
+footer{
+    background: rgb(230, 230, 230);
+    text-align: center;
+    font-size: 50px;
+    height: 10vh;
+}
+.abajo{
+    padding-top: 30px;
+}
+.lorem{
+    font-size: 30px;
+    padding-top: 20px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+   font-size: 30px;
+   padding: 10px 20px;
+}
+main{
+    display: flex;
+    height: 80vh;
+}
+nav{
+    order: -1;
+    width: 25vw;
+    background: rgb(193, 193, 193);
+}
+article{
+    order: 0;
+    width: 50vw;
+    background: gray;
+}
+aside{
+    order: 1;
+    width: 25vw;
+    background: rgb(193, 193, 193);
+}

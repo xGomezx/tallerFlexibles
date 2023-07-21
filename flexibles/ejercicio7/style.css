@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: salmon;
+    color: #fff;
+    height: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.tituloFlex{
+    font-size: 60px;
+}
+.bienvenida{
+    font-size: 30px;
+    margin-top: 25px;
+}
+nav{
+    background: #1BBC9B;
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;    
+}
+footer{
+    text-align: center;
+    background-color: #CCCCCC;
+    height: 7vh;
+}
+.footer{
+    font-size: 30px;
+    padding-top: 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 25px;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.links{
+    width: 45vw;
+}
+.idiomas{
+    width: 10vw;
+}
+main{
+    display: flex;
+    height: 1670px;
+
+}
+.izquierda{
+    background: #F1F1F1;
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+}
+.derecha{
+    width: 70%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+}
+.aside{
+    margin-top: 40px;
+    font-size: 35px;
+}
+.titulosP{
+    margin: 20px 0;
+    font-size: 35px;
+}
+.subtitulo{
+    margin-bottom: 20px;
+}
+.mediano{
+    width: 400px;
+    height: 400px;
+    background:#CCCCCC ;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 30px 0;
+}
+.grande{
+    width: 1290px;
+    height: 400px;
+    background:#CCCCCC ;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.peque{
+    width: 400px;
+    height: 200px;
+    background:#CCCCCC ;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 5px 0;
+}
+.linea{
+    background: #CCCCCC;
+    border: 3px solid  #CCCCCC ;
+}
+.info1{
+    width: 416px;
+    font-size: 22px;
+    margin: 10px 0;
+}
+.info2{
+    width: 1250px;
+    font-size: 22px;
+    margin: 20px 0;
+}
